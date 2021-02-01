@@ -14,7 +14,7 @@ const client = new Twitter({
 
 const defaults = {
   tweet_mode: 'extended',
-  exclude_replies: false,
+  exclude_replies: true,
   include_rts: true,
   count: 20,
 }
